@@ -1,0 +1,72 @@
+html, body{
+  height: 100%;
+}
+
+body{
+  background: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  font-family: Courier;
+}
+
+h1 {
+  font-size: 2em;
+  color: black;
+  display: inline-block;
+}
+
+a{
+  color: blue;
+}
+p{
+  margin-top: 1em;
+  text-align: center;
+  color: black;
+}
+
+
+.button, .display{
+  font-family: courier;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  border: 2px solid lightgray;
+  font-size:2em;
+  background: steelblue;
+  color: white;
+}
+
+#equals{
+  width: 400px;
+}
+
+.display{
+  border: 0px solid lightgray;
+  width: 400px;
+  height: 50px;
+  background: black;
+  justify-content: flex-end;
+}
+
+#formula-display{
+  font-size: 1.5em;
+  color: yellow;
+}
+
+#add, #subtract, #multiply, #divide, #equals{
+  background: seagreen;
+}
+
+#clear{
+  background: slateblue;
+}
+
+.row{
+  diplay: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap:0;
+  height: 100px;
+  width: 400px;
+}
